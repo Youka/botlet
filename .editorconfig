@@ -1,0 +1,25 @@
+# Reference: https://editorConfig.org
+
+root = true
+
+[*]
+indent_style = tab
+tab_width = 4
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = false
+max_line_length = 180
+
+[*.{py,js,md,json,yml,ini}]
+indent_style = space
+insert_final_newline = true
+
+[*.py]
+indent_size = 4
+
+[*.{js,md,json,yml,ini}]
+indent_size = 2
+
+[*.md]
+trim_trailing_whitespace = false

@@ -1,0 +1,22 @@
+# File format: <https://coverage.readthedocs.io/en/latest/config.html>
+
+[run]
+command_line = -m unittest
+omit = .venv/*
+data_file = coverage/report.bin
+
+[report]
+fail_under = 50.0
+precision = 1
+show_missing = true
+sort = Cover
+
+[html]
+directory = coverage/html
+
+[xml]
+output = coverage/report.xml
+
+[json]
+output = coverage/report.json
+pretty_print = true

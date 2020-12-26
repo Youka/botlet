@@ -1,0 +1,6 @@
+# Ignore everything...
+**
+
+# ...except application code and dependencies descriptor
+!/botlet/
+!/requirements.txt

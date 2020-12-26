@@ -1,0 +1,8 @@
+# Test coverage <https://pypi.org/project/coverage/>
+coverage >=5.3,<6
+
+# Code linting <https://pypi.org/project/pylint/>
+pylint >=2.6,<3
+
+# Code documentation <https://pypi.org/project/pdoc3/>
+pdoc3 >=0.9.1,<2

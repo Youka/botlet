@@ -1,0 +1,11 @@
+# Output
+/build/
+/dist/
+/*.egg-info/
+/coverage/
+/html/
+__pycache__/
+
+# Work environment
+/.venv/
+/.vscode/

@@ -1,0 +1,5 @@
+# Discord client <https://pypi.org/project/discord.py/>
+discord.py >=1.5,<2
+
+# Slack client <https://pypi.org/project/slackclient/>
+slackclient >=2.9.1,<3
