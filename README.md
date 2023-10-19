@@ -22,7 +22,7 @@ Communication and commands bot.
   _(For other output formats, replace `report` by `html`|`json`|`xml`)_
 
 ### Deploy
-* Generate **code documentation**: `pdoc --html botlet`
+* Show **code documentation**: `pdoc -o html/ botlet`
 * Manage **distribution**:
   * Source archive: `python setup.py sdist`
   * Install locally: `pip install .`
